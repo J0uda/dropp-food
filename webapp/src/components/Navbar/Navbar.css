@@ -1,0 +1,50 @@
+.nav {
+  height: 0px;
+  width: 100vw;
+  display: flex;
+  /* justify-content: ; */
+  font-weight: 700;
+  font-family: 'Kanit';
+  box-sizing: border-box;
+}
+
+.navLink {
+  color: #54c391;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+.colorr {
+  color: #ff8c8c;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navIcon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.pMenu {
+  transform: translate(-175%, 100%);
+  font-weight: bold;
+  color: #a3e4d7;
+}
+
+.GiFoodTruck {
+  color: #a3e4d7;
+  font-size: 5rem;
+  transform: translate(-50%, -15%);
+}

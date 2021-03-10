@@ -1,0 +1,54 @@
+.ProdcutContainer {
+  background: #f8f5f2;
+  width: 100vw;
+  height: 60vh;
+}
+
+.titleContainerProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.serviceContainer {
+  display: flex;
+  margin: 5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.serviceStepContainer {
+  width: 50%;
+  text-align: center;
+}
+
+h6 {
+  color: #ff8c8c;
+  font-size: 1.5rem;
+}
+
+.IoFastFood {
+  color: #54c391;
+}
+
+.GrMapLocation {
+  color: #54c391;
+}
+
+.GiTakeMyMoney {
+  color: #54c391;
+}
+
+.Pdesc {
+  font-size: 16px;
+  font-family: 'Poppins', Arial;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+  color: #644444;
+  line-height: 2;
+  font-weight: 400;
+}

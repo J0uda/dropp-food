@@ -1,0 +1,67 @@
+.AboutContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* padding-right: 5rem; */
+}
+
+.aboutTitle {
+  font-family: 'Dancing Script', cursive;
+  color: #54c391;
+  font-size: 3rem;
+}
+.abputDescription {
+  width: 100%;
+  height: 80vh;
+  padding-right: 7rem;
+}
+
+.imageDEscription {
+  width: 20%;
+  height: 20%;
+}
+
+.imageDiv {
+  width: 100%;
+  height: 100vh;
+}
+.imageSize {
+  width: 100%;
+  height: 100vh;
+}
+
+.desciptionP {
+  font-size: 16px;
+  font-family: 'Poppins', Arial;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  color: #644444;
+  padding-left: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.containerTitle {
+  margin-left: 3rem;
+  padding-left: 3rem;
+  margin-top: 2rem;
+}
+
+.ImageDescContainer {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}

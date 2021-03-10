@@ -1,0 +1,117 @@
+.container-sideBar {
+  min-width: 400px;
+  backdrop-filter: blur(35px);
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+h3 {
+  text-align: center;
+  color: #ff8c8c;
+  font-size: 22px;
+}
+
+span {
+  color: #54c391;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.logoImage {
+  height: 6rem;
+  border-radius: 5px;
+}
+
+.title-Sidebar {
+  color: #644444;
+  margin-bottom: 2rem;
+}
+
+.inputStyle {
+  width: 80%;
+  max-width: 350px;
+  min-width: 250px;
+  height: 40px;
+  border: none;
+  margin: 0.5rem 0;
+  background-color: #f5f5f5;
+  box-shadow: 0px 14px 9px -11px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 0 1rem;
+  transition: all 0.2s ease-in;
+}
+
+inputStyle:hover {
+  transform: translateY(-3px);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.status {
+  height: 10px;
+  width: 10px;
+  background: #9d949d;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+
+.status:focus {
+  background: #ffa689;
+}
+
+.status:invalid {
+  background: #fe2f75;
+}
+
+.status:valid {
+  background: #54c391;
+}
+
+.Sign {
+  width: 75%;
+  max-width: 350px;
+  min-width: 250px;
+  height: 40px;
+  border: none;
+  margin: 1rem 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #70edb9;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.terms {
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 10px;
+  color: #686868;
+  font-weight: 300;
+}
+
+h4 {
+  color: #686868;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 2rem;
+}
+
+.spanLogin {
+  color: #ff8c8c;
+  cursor: pointer;
+}

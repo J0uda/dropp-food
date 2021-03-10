@@ -1,0 +1,88 @@
+.SideBarContainer {
+  position: fixed;
+  z-index: 999;
+  width: 350px;
+  height: 100vh;
+  background: #54c391;
+  opacity: 0.9;
+  display: grid;
+  align-items: center;
+  top: 0;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 400px) {
+  .SideBarContainer {
+    width: 100px;
+  }
+}
+
+.Icon {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  background: transparent;
+  border: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.SideBarMenu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 80px);
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .SideBarMenu {
+    grid-template-rows: repeat(3, 60px);
+  }
+}
+
+.FaTimes {
+  color: #ff8c8c;
+}
+.SideBarLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.SideBarLink {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.SideBtnWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSearch {
+  width: 50%;
+  max-width: 150px;
+  min-width: 250px;
+  height: 40px;
+  border: none;
+  margin: 1rem 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff8c8c;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+.buttonSearch:hover {
+  transform: translateY(-3px);
+}

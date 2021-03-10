@@ -1,0 +1,8 @@
+.containerRestaurentList {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-evenly;
+  margin-top: 250px;
+  margin-left: 90px;
+}
